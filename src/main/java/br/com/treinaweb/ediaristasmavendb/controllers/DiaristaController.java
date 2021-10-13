@@ -46,6 +46,15 @@ public class DiaristaController {
 	}
 	// --
 
+	// -- EDIT DIARISTA
+	@GetMapping("/{id}/editar")
+	public ModelAndView editar(@PathVariable Long id){
+		var modelAndView = new ModelAndView("admin/diaristas/form");//Same template as form
+		modelAndView.addObject("diarista", repository.getById(id));
+		return modelAndView;
+	}
+	// --
+
 	// -- DELETE DIARISTA
 	@GetMapping("/{id}/excluir")
 	public String excluir(@PathVariable Long id){

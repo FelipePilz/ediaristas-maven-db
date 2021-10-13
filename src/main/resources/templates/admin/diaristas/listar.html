@@ -20,7 +20,9 @@
                         <td th:text="${diarista.email}"></td>
                         <td th:text="${diarista.estado}"></td>
                         <td>
-                            <a class="btn btn-sm btn-warning" href="#"
+                            <a
+                                class="btn btn-sm btn-warning"
+                                th:href="@{/admin/diaristas/{id}/editar (id=${diarista.id})}"
                                 >Editar</a
                             >
                             <a
