@@ -18,6 +18,15 @@ public class DiaristaController {
 	@Autowired
 	private DiaristaRepository repository;
 
+	@GetMapping// (admin/diaristas) <- route
+	public ModelAndView listar(){
+		var modelAndView = new ModelAndView("admin/diaristas/listar");
+		modelAndView.addObject("diaristas", repository.findAll());
+		return modelAndView;
+	}
+
+
+	// -- ADD NEW DIARISTAS
 	@GetMapping("/cadastrar")
 	public ModelAndView cadastrar(){
 		var modelAndView = new ModelAndView("admin/diaristas/form");//Located in
@@ -32,4 +41,5 @@ public class DiaristaController {
 		repository.save(diarista);
 		return "redirect:/admin/diaristas/cadastrar";
 	}
+	// --
 }
