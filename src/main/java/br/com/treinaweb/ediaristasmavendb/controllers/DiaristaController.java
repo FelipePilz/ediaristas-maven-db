@@ -53,6 +53,12 @@ public class DiaristaController {
 		modelAndView.addObject("diarista", repository.getById(id));
 		return modelAndView;
 	}
+
+	@PostMapping("/{id}/editar")
+	public String editar(@PathVariable Long id, Diarista diarista){
+		repository.save(diarista);
+		return "redirect:/admin/diaristas";
+	}
 	// --
 
 	// -- DELETE DIARISTA
