@@ -23,7 +23,10 @@
                             <a class="btn btn-sm btn-warning" href="#"
                                 >Editar</a
                             >
-                            <a class="btn btn-sm btn-danger" href="#"
+                            <a
+                                class="btn btn-sm btn-danger"
+                                th:href="@{/admin/diaristas/{id}/excluir (id=${diarista.id})}"
+                                onclick="return confirm('Tem certeza que deseja excluir esse registro?')"
                                 >Excluir</a
                             >
                         </td>
