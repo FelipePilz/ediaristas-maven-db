@@ -17,7 +17,12 @@
 
                 <div class="mb-3">
                     <label class="form-label" for="cpf">CPF</label>
-                    <input class="form-control" type="text" th:field="*{cpf}" />
+                    <input
+                        data-mask="000.000.000-00"
+                        class="form-control"
+                        type="text"
+                        th:field="*{cpf}"
+                    />
                 </div>
 
                 <div class="mb-3">
@@ -32,6 +37,7 @@
                 <div class="mb-3">
                     <label class="form-label" for="telefone">Telefone</label>
                     <input
+                        data-mask="(00) 00000-0000"
                         class="form-control"
                         type="text"
                         th:field="*{telefone}"
@@ -80,7 +86,12 @@
 
                 <div class="mb-3">
                     <label class="form-label" for="cep">CEP</label>
-                    <input class="form-control" type="text" th:field="*{cep}" />
+                    <input
+                        data-mask="00000-000"
+                        class="form-control"
+                        type="text"
+                        th:field="*{cep}"
+                    />
                 </div>
 
                 <div class="mb-3">
