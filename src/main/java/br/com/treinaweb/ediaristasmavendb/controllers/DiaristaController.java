@@ -1,7 +1,10 @@
 package br.com.treinaweb.ediaristasmavendb.controllers;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -40,7 +43,10 @@ public class DiaristaController {
 	}
 
 	@PostMapping("/cadastrar")
-	public String cadastrar(Diarista diarista){
+	public String cadastrar(@Valid Diarista diarista, BindingResult result){
+		if(result.hasErrors()){
+			return "admin/diaristas/form";
+		}
 		repository.save(diarista);
 		return "redirect:/admin/diaristas";//Sending to the listar page!
 	}
@@ -55,7 +61,10 @@ public class DiaristaController {
 	}
 
 	@PostMapping("/{id}/editar")
-	public String editar(@PathVariable Long id, Diarista diarista){
+	public String editar(@PathVariable Long id,@Valid Diarista diarista, BindingResult result){
+		if(result.hasErrors()){
+			return "admin/diaristas/form";
+		}
 		repository.save(diarista);
 		return "redirect:/admin/diaristas";
 	}
