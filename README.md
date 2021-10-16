@@ -41,8 +41,6 @@ Modifique elas para:<br>
 ![image](https://user-images.githubusercontent.com/67395760/137586533-eaffbeff-89b0-48e7-a544-6261a8d50739.png)<br>
 Após isso, vai aparecer no seu *Database Navigator* o localhost:3306, clique com o botão direito nele e selecione a primeira opção, criar um novo banco de dados, e coloque o nome e-diaristas.<br>
 ![image](https://user-images.githubusercontent.com/67395760/137586634-c3376610-5898-4f5c-8840-395ffb75f0bf.png)<br>
-Com relação ao banco de dados está tudo certo.<br>
-
 
 ## Iniciando o servidor Maven e Spring
 Observação, caso você tenha usado usuario(username) e senha(password) diferentes no DBeaver, altere ele no arquivo [application.properties](https://github.com/FelipePilz/ediaristas-maven-db/blob/master/src/main/resources/application.properties).<br>
