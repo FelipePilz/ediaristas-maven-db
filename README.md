@@ -50,7 +50,7 @@ Primeramente, após todas as dependências instaladas abra o terminal na pasta d
 ```bash
 mvn spring-boot:run
 ```
-E acesse [localhost:8000/admin/diaristas](http://localhost:8080/admin/diaristas)<br>
+Espere um pouco e depois acesse [localhost:8000/admin/diaristas](http://localhost:8080/admin/diaristas)<br>
 Agora está tudo pronto, só clicar em cadastrar clientes e se divertir :)
 
 #
