@@ -24,7 +24,7 @@ Aplicativo feito durante o workshop multi-stack da TreinaWeb, que ocorreu no per
 ### Caso você queira rodar a aplicação junto ao front-end, [clique aqui!](https://github.com/FelipePilz/ediaristas)
 Primeiro, não esqueça de clonar ou baixar o meu projeto: <br>
 ![image](https://user-images.githubusercontent.com/67395760/137585913-8e5194a7-23dc-4228-93e4-5bf7aa1719b3.png)<br>
-Caso você não tenha as dependências, recomendo você baixar  [MySQL](https://dev.mysql.com/downloads/installer/), [DBeaver](https://dbeaver.io/download/), [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).<br>
+Caso você não tenha as dependências, recomendo você baixar  [MySQL](https://dev.mysql.com/downloads/installer/), [DBeaver](https://dbeaver.io/download/), [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) e [Maven](https://maven.apache.org/download.cgi)<br>
 No VSCode, recomendo você baixar as extensões descritas [nesse video.](https://www.youtube.com/watch?v=orY9kC7Rs-c)<br>
 
 ## DBeaver
