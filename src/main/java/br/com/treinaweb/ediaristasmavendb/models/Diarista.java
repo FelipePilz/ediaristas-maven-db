@@ -92,8 +92,6 @@ public class Diarista {
     @Column(nullable = false, length = 2)
 	private String estado;
 
-	@NotNull
-	@NotEmpty
 	@Column(nullable = false)
 	private String codigoIbge;
 
