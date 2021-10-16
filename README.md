@@ -28,7 +28,7 @@ Caso você não tenha as dependências, recomendo você baixar  [MySQL](https://
 No VSCode, recomendo você baixar as extensões descritas [nesse video.](https://www.youtube.com/watch?v=orY9kC7Rs-c)<br>
 
 ## DBeaver
-Para iniciar o banco, abra o DBeaver e clique em criar um novo banco de dados, representado pelo ![image](https://user-images.githubusercontent.com/67395760/137586296-a6b4d8de-7274-4de2-bfa9-1e4616ada3b4.png), após isso, selecione *MySQL*, ![image](https://user-images.githubusercontent.com/67395760/137586342-a6aaac9c-02fb-4a64-aeff-5e1cf43ae53a.png)
+Para iniciar o banco, abra o DBeaver e clique em criar um novo banco de dados, representado pelo ![image](https://user-images.githubusercontent.com/67395760/137586296-a6b4d8de-7274-4de2-bfa9-1e4616ada3b4.png), após isso, selecione *MySQL*,<br> ![image](https://user-images.githubusercontent.com/67395760/137586342-a6aaac9c-02fb-4a64-aeff-5e1cf43ae53a.png)
 
 Coloque a senha com base na senha que você colocou na instalação do MySQL, por padrão, ela vai ser root.
 ![image](https://user-images.githubusercontent.com/67395760/137586410-c7f72cbb-8c4c-4c28-8f7e-dff97b100471.png)
